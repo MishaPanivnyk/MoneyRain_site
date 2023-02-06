@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-header_arrow" viewBox="0 0 46 32">
-<path fill="none" stroke="#5e86ed" style="stroke: var(--color1, #5e86ed)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="9.1429" d="M4.571 4.571l18.286 18.286 18.286-18.286"></path>
+<path  fill="none" stroke="#000000" style="stroke: var(--color1, #000000)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="9.1429" d="M4.571 4.571l18.286 18.286 18.286-18.286"></path>
 </symbol>
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M24.144 11.43h-5.86v-2.856c0 0-0.328-2.716 1.571-2.716 2.146 0 3.86 0 3.86 0v-5.857h-6.572c0 0-5.5-0.023-5.5 5.5 0 1.186-0.005 3.347-0.014 5.93h-3.774v4.716h3.764c-0.022 7.498-0.048 15.854-0.048 15.854h6.713v-15.854h4.43l1.43-4.716z"></path>
