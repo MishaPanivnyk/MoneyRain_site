@@ -1,0 +1,46 @@
+.page-header {
+  padding: 47px 0px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+// .navigation {
+//   background-color: beige;
+// }
+.nav-list {
+  display: flex;
+  gap: 106px;
+  margin-left: 360px;
+  margin-right: 64px;
+}
+// .nav-item {
+//   color: bisque;
+// }
+.nav-link {
+  padding: 20px 10px;
+}
+.logo {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.19;
+  color: #2f2e2e;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: #2f2e2e;
+  cursor: pointer;
+}
+.nav-link-active {
+  font-weight: 700;
+}
+.header__search-link {
+  cursor: pointer;
+}
