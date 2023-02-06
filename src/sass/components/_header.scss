@@ -1,46 +1,50 @@
 .page-header {
-  padding: 47px 0px;
+  padding: 27px 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.05);
   .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
-// .navigation {
-//   background-color: beige;
-// }
+.logo__link {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+
+  color: #3a4149;
+}
+.logo__img {
+  margin-right: 11px;
+}
 .nav-list {
   display: flex;
-  gap: 106px;
-  margin-left: 360px;
-  margin-right: 64px;
+  gap: 20px;
 }
-// .nav-item {
-//   color: bisque;
-// }
 .nav-link {
+  position: relative;
   padding: 20px 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #000000;
+  cursor: pointer;
 }
-.logo {
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 1.19;
-  color: #2f2e2e;
-}
-.nav-link {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
 
-  color: #2f2e2e;
-  cursor: pointer;
+.current::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: #5e86ed;
+  cursor: auto;
+  left: 0;
+  top: 83px;
 }
-.nav-link-active {
-  font-weight: 700;
-}
-.header__search-link {
-  cursor: pointer;
+.heaader__link-icon {
+  margin-left: 10px;
 }
