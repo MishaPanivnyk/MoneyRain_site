@@ -1,0 +1,30 @@
+body {
+  background-image: url('/src/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3a4149;
+
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  background: #0e1734;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover,
+.btn:focus {
+  background: #f87706;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
