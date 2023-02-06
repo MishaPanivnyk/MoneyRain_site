@@ -1,0 +1,34 @@
+.question {
+  padding-top: 220px;
+  padding-bottom: 168px;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+.question__text-container {
+  margin-left: 157px;
+}
+.question__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.16;
+  margin-bottom: 15px;
+}
+.question__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.64;
+  color: #5e86ed;
+  margin-bottom: 30px;
+}
+.question__text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.64;
+  max-width: 570px;
+}
+.question__text-bottom {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
