@@ -1,0 +1,24 @@
+.share {
+  padding-top: 180px;
+  padding-bottom: 385px;
+  position: relative;
+}
+.share__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.16;
+  margin-bottom: 20px;
+}
+.share__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.64;
+  color: #5e86ed;
+  margin-bottom: 30px;
+}
+.share__img-bg {
+  content: '';
+  position: absolute;
+  top: 40px;
+  right: 350px;
+}
